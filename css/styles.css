@@ -48,6 +48,30 @@ img {
     height: auto;
 }
 
+
+  
+
+
+
+.conteiner-services-icon{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+}
+
+.services-icon {
+    width: 64px;
+    height: 64px;}
+
+
+
+
 /* common */
 
 .container { 
@@ -161,8 +185,16 @@ img {
 /* hero */
 
 .hero {
-    background-color: #2E2F42;
+    width: 1440px;
+    margin: 0 auto;
     padding: 188px 0;
+    background-image: 
+    linear-gradient(to bottom, rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+    
+    url(../images/background/people-office.jpg);
+    
+   
   }
 
 .hero-title { margin: auto;
@@ -296,11 +328,37 @@ margin: auto;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
    
 }
 
 .team-name {
     padding: 32px 0;
+    
+}
+
+.social-media-list { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;}
+
+.social-media-items { width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#4D5AE5;}
+
+.social-media-link { 
+    width: 100%;
+        height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media-icon {
+   
     
 }
 
