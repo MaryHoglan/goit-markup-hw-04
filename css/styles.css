@@ -376,12 +376,13 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #f4f4fd;
     
 }
 
 .social-media-icon {
-    fill: #f4f4fd;
+    
 }
 
 .social-media-link:hover,
@@ -547,14 +548,12 @@ width: 208px;
     justify-content: center;
     border-radius: 50%;
     background-color: #4D5AE5;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
-
-}
-          
-.footer-social-icon { 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #f4f4fd;
 
 }
+          
+.footer-social-icon { }
 
 .footer-social-link:hover,
 .footer-social-link:focus {
