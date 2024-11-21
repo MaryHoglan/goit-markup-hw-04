@@ -470,7 +470,7 @@ img {
     background-color: #4d5ae5;
 }
 
-.portfolio-show-text:hover .portfolio-hiden-text {
+.portfolio-item:hover .portfolio-hiden-text {
     transform: translateY(0);
 }
 
